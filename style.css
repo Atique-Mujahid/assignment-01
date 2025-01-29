@@ -356,3 +356,8 @@ gap: 10px;
 border-radius: 8px;
 background: #FFF;
 }
+#last_part{
+  border-radius: 16px;
+  background: rgba(13, 19, 33, 0.03);
+  padding: 10px 0px;
+}
