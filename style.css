@@ -81,8 +81,10 @@
   background: rgba(13, 19, 33, 0.02);
   padding: 70px 60px;
 }
+
 .title {
   text-align: center;
+  margin-bottom: 50px;
 }
 .title > h2 {
   color: #0d1321;
@@ -103,4 +105,254 @@
   font-weight: 400;
   margin-bottom: 20px;
   line-height: 26px; /* 162.5% */
+}
+.devlopment_card .devlopment_one .left {
+  width: 40%;
+}
+.devlopment_card .devlopment_one .left > h2 {
+  color: rgba(13, 19, 33, 0.7);
+  font-family: "Azeret Mono";
+  font-size: 22px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 36px; /* 150% */
+}
+.devlopment_card .devlopment_one .left > p {
+  color: #0d1321;
+  font-family: "Azeret Mono";
+  font-size: 15px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 26px; /* 162.5% */
+  margin: 16px 0px;
+}
+.devlopment_card .devlopment_one .left > button {
+  display: flex;
+  padding: 12px 20px;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  border: 1px solid #0d1321;
+  opacity: 0.7;
+}
+.devlopment_two {
+  justify-content: flex-start;
+  gap: 60px;
+  margin: 40px 0px 40px 0px;
+}
+.devlopment_two .right {
+  width: 40%;
+}
+.image_width img {
+  width: 100%;
+}
+.devlopment_two .right > h2 {
+  color: rgba(13, 19, 33, 0.7);
+  font-family: "Azeret Mono";
+  font-size: 22px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 36px; /* 150% */
+}
+.devlopment_two .right > p {
+  font-size: 15px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 26px; /* 162.5% */
+  margin: 16px 0px;
+}
+.devlopment_two .right > button {
+  display: flex;
+  padding: 12px 20px;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  border: 1px solid #0d1321;
+  opacity: 0.7;
+}
+#ispiration {
+  margin-bottom: 80px;
+}
+.inspiration_title {
+  margin-bottom: 50px;
+}
+.inspiration_title > h2 {
+  color: #0d1321;
+  text-align: center;
+  font-family: "Azeret Mono";
+  font-size: 32px;
+  font-style: normal;
+  font-weight: 800;
+  line-height: normal;
+}
+.inspiration_title > p {
+  color: #0d1321;
+  text-align: center;
+  font-family: "Azeret Mono";
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 26px; /* 162.5% */
+}
+.inpiration_video {
+  padding: 20px 20px;
+  border-radius: 16px;
+  border: 1px solid rgba(13, 19, 33, 0.2);
+}
+.first {
+  width: 30%;
+  height: 250px;
+  padding: 20px 20px;
+}
+.card_all {
+  gap: 20px;
+}
+.first > h2 {
+  color: #0d1321;
+  font-family: "Azeret Mono";
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 800;
+  line-height: 36px; /* 150% */
+  margin: 10px auto;
+}
+.first > p {
+  color: #0d1321;
+  font-family: "Azeret Mono";
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 26px; /* 162.5% */
+  margin: 10px auto;
+}
+.first > a {
+  color: #0d1321;
+  font-family: "Azeret Mono";
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  text-decoration-line: underline;
+  text-decoration-style: solid;
+  text-decoration-skip-ink: none;
+  text-decoration-thickness: auto;
+  text-underline-offset: auto;
+  text-underline-position: from-font;
+}
+.card1 {
+  border-radius: 16px;
+  background: rgba(255, 76, 30, 0.05);
+}
+.card2 {
+  border-radius: 16px;
+  background: rgba(0, 76, 232, 0.05);
+}
+.card3 {
+  border-radius: 16px;
+  background: rgba(255, 223, 0, 0.05);
+}
+#target{
+  margin:80px auto;
+}
+.target {
+  padding: 30px;
+  justify-content: flex-start;
+  gap: 20px;
+  margin: 30px auto;
+  border-radius: 16px;
+  border: 1px solid rgba(13, 19, 33, 0.15);
+  background: #fff;
+}
+.target .target_image img {
+  width: 80px;
+}
+.target_discription > h2 {
+  color: #0d1321;
+  font-family: "Azeret Mono";
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 800;
+  line-height: 36px; /* 150% */
+}
+.target_discription > p {
+  color: #0d1321;
+  font-family: "Azeret Mono";
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 26px; /* 162.5% */
+  margin: 10px auto;
+}
+.target_discription > a {
+  color: #0d1321;
+  font-family: "Azeret Mono";
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  text-decoration-line: underline;
+  text-decoration-style: solid;
+  text-decoration-skip-ink: none;
+  text-decoration-thickness: auto;
+  text-underline-offset: auto;
+  text-underline-position: from-font;
+}
+#support{
+  margin: 80px 0;
+}
+.bg_image{
+  background-image: url('./images/handshake.jpg');
+  padding: 70px 0;
+  background-position: center;
+  background-size:cover;
+  border-radius: 16px;
+  opacity: 1.3;
+
+}
+.bg_image img{
+  width: 100%;
+}
+.support_title >h2{
+  color: #FFF;
+  text-align: center;
+  font-family: "Azeret Mono";
+  font-size: 32px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 36px; /* 112.5% */
+  margin-bottom: 20px;
+}
+.support_title > p{
+  color: #FFF;
+  text-align: center;
+  font-family: "Azeret Mono";
+  font-size: 15px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 26px; /* 162.5% */
+  width: 600px;
+  margin: 0px auto;
+}
+.bg_image form{
+  max-width: 650px;
+  margin: 20px auto;
+  display: flex;
+  gap: 10px;
+}
+.bg_image form input{
+  flex-grow: 1;
+  border: none;
+  border-radius: 5px;
+  outline: none;
+  padding: 10px 30px;
+}
+.bg_image .button{
+  display: flex;
+width: 120px;
+padding: 17px 20px;
+justify-content: center;
+align-items: center;
+gap: 10px;
+border-radius: 8px;
+background: #FFF;
 }
